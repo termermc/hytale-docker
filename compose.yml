@@ -1,0 +1,12 @@
+services:
+    hytale:
+        image: ghcr.io/termermc/hytale-server:latest
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+
+        volumes:
+         - ./runtime:/data/hytale/runtime
+
+        ports:
+         - 5520:5520/udp
