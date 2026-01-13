@@ -35,6 +35,10 @@ Open the link in the terminal to authenticate. Once you have authenticated, your
 Game files and state will be stored in the `runtime` directory.
 They are persisted across restarts and all game files are accessible from there.
 
+## Updating
+
+To update the server, run `./prepare.sh` and then `./build.sh`. You can now restart the Docker container and it will be updated.
+
 ## Firewall
 
 Normally, Docker should be able to publish ports when it is running as root.
