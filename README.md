@@ -2,6 +2,8 @@
 
 Run a Hytale server inside a Docker container.
 
+Sponsored by [POOP.NET HYTALE](https://hy.poop.net/)
+
 ## Important
 
 The Hytale server downloader requires authentication.
