@@ -5,6 +5,9 @@ services:
             context: .
             dockerfile: ./Dockerfile
 
+        tty: true
+        stdin_open: true
+
         volumes:
          - ./runtime:/data/hytale/runtime
 
