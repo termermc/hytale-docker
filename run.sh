@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 docker run -it \
 	-v ./runtime:/data/hytale/runtime \
